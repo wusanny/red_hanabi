@@ -1,1 +1,1 @@
-select alice as name
+select 'alice' as name
