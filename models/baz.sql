@@ -1,1 +1,1 @@
-select female as gender
+select 'female' as gender
