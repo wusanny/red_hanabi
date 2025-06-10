@@ -1,0 +1,6 @@
+packages:
+  - package: calogica/dbt_expectations
+    version: [">=0.10.0", "<0.11.0"]
+
+  - git: https://{{env_var('DBT_ENV_SECRET')}}@github.com/wusanny/clean_git.git
+    revision: main
